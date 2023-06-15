@@ -4,9 +4,7 @@ public class Address {
 
 		private Address(){}
 
-		public static String getRestaurantAddress(){
-			return restaurantAddress;
-		}
+		public static String getRestaurantAddress(){ return restaurantAddress; }
 
 		public static String directions() {
 			return "Directions to Restaurant: " + restaurantAddress;
